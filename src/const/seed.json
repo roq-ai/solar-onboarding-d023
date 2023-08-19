@@ -1,0 +1,2372 @@
+[
+  {
+    "solar_plant": [
+      {
+        "id": "8e844b26-1e09-4d05-a135-d6686c88f348",
+        "commissioning_date": "2023-08-19T05:48:24.956Z",
+        "location": "California",
+        "asset_size": 64144,
+        "created_at": "2023-08-19T07:45:20.398Z",
+        "updated_at": "2023-08-19T08:52:26.154Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "b6988fe2-b205-46f6-b614-53f5ec38871d",
+        "commissioning_date": "2023-08-18T18:09:34.732Z",
+        "location": "Arizona",
+        "asset_size": 17726,
+        "created_at": "2023-08-18T14:52:49.637Z",
+        "updated_at": "2023-08-19T09:33:25.664Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "e551a98b-0d3a-419c-849f-ca86aed29364",
+        "commissioning_date": "2023-08-18T16:57:08.359Z",
+        "location": "Texas",
+        "asset_size": 80250,
+        "created_at": "2023-08-19T00:46:48.095Z",
+        "updated_at": "2023-08-18T19:53:03.827Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "dc5d78a4-12b1-4989-aa0d-6d364c213978",
+        "commissioning_date": "2023-08-18T20:29:59.069Z",
+        "location": "Florida",
+        "asset_size": 74101,
+        "created_at": "2023-08-19T05:20:39.685Z",
+        "updated_at": "2023-08-19T12:00:07.508Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "e3634d5d-b422-4854-bb87-4cd44d3e6a7a",
+        "commissioning_date": "2023-08-19T02:05:57.305Z",
+        "location": "New York",
+        "asset_size": 41310,
+        "created_at": "2023-08-18T17:43:21.361Z",
+        "updated_at": "2023-08-19T00:27:22.381Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "plant_data": [
+      {
+        "id": "7862ec68-77a5-47b0-8721-b810a7290c29",
+        "data": "12 MW",
+        "upload_date": "2023-08-18T18:34:38.719Z",
+        "created_at": "2023-08-18T20:29:55.865Z",
+        "updated_at": "2023-08-19T12:52:46.400Z",
+        "solar_plant_id": "e551a98b-0d3a-419c-849f-ca86aed29364",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ecfe2856-b2be-46dc-b805-97bc692a03be",
+        "data": "8.5 MW",
+        "upload_date": "2023-08-18T19:25:02.200Z",
+        "created_at": "2023-08-18T20:22:50.385Z",
+        "updated_at": "2023-08-19T00:24:31.906Z",
+        "solar_plant_id": "b6988fe2-b205-46f6-b614-53f5ec38871d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bb74be4d-a666-4986-a8d7-c6afc59be2e1",
+        "data": "5.2 MW",
+        "upload_date": "2023-08-19T05:39:40.517Z",
+        "created_at": "2023-08-18T23:58:50.461Z",
+        "updated_at": "2023-08-19T14:32:13.991Z",
+        "solar_plant_id": "b6988fe2-b205-46f6-b614-53f5ec38871d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9621b3a7-d982-4adc-b0d0-05d00e40c6cc",
+        "data": "9.7 MW",
+        "upload_date": "2023-08-19T14:26:27.276Z",
+        "created_at": "2023-08-19T02:21:44.830Z",
+        "updated_at": "2023-08-18T15:51:48.443Z",
+        "solar_plant_id": "dc5d78a4-12b1-4989-aa0d-6d364c213978",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8def3dc3-c246-4357-8a79-d72ee9ca191a",
+        "data": "6.3 MW",
+        "upload_date": "2023-08-19T09:12:09.338Z",
+        "created_at": "2023-08-18T15:59:07.202Z",
+        "updated_at": "2023-08-18T20:28:51.314Z",
+        "solar_plant_id": "dc5d78a4-12b1-4989-aa0d-6d364c213978",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "28930269-2b95-4043-bbf7-d307414a5d7e",
+        "email": "invitee1@example.com",
+        "role": "Admin",
+        "status": "Pending",
+        "invited_by": "user_entity_pk",
+        "created_at": "2023-08-19T14:25:40.599Z",
+        "updated_at": "2023-08-19T10:35:46.195Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "93d579e7-c3d1-4304-8a73-a16e984bd6a3",
+        "email": "invitee2@example.com",
+        "role": "Manager",
+        "status": "Accepted",
+        "invited_by": "user_entity_pk",
+        "created_at": "2023-08-18T15:44:35.139Z",
+        "updated_at": "2023-08-19T11:32:58.149Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "4f3dd74b-7e81-48dc-b57c-840f8abb46c5",
+        "email": "invitee3@example.com",
+        "role": "Employee",
+        "status": "Declined",
+        "invited_by": "user_entity_pk",
+        "created_at": "2023-08-19T03:54:56.642Z",
+        "updated_at": "2023-08-18T18:33:33.921Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "2955bd27-c256-471d-a45f-775c8cf26ceb",
+        "email": "invitee4@example.com",
+        "role": "Guest",
+        "status": "Expired",
+        "invited_by": "user_entity_pk",
+        "created_at": "2023-08-19T07:52:08.245Z",
+        "updated_at": "2023-08-19T12:02:46.568Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f9b6a41f-8836-49cd-8f21-2e4acc263834",
+        "email": "invitee5@example.com",
+        "role": "Supervisor",
+        "status": "Cancelled",
+        "invited_by": "user_entity_pk",
+        "created_at": "2023-08-18T23:30:09.447Z",
+        "updated_at": "2023-08-19T13:47:53.538Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "guest_view": [
+      {
+        "id": "10cf599c-0c77-4016-9aef-2449d7732a34",
+        "view_date": "2023-08-18T16:31:11.916Z",
+        "created_at": "2023-08-18T17:04:08.192Z",
+        "updated_at": "2023-08-19T04:57:45.413Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "04246d06-687c-4097-8108-6ef7b5179a2d",
+        "view_date": "2023-08-18T18:05:09.402Z",
+        "created_at": "2023-08-19T00:29:46.669Z",
+        "updated_at": "2023-08-18T19:35:29.923Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5fa13f34-62bb-45d8-b234-ec087f67164f",
+        "view_date": "2023-08-19T11:20:40.232Z",
+        "created_at": "2023-08-18T19:27:24.190Z",
+        "updated_at": "2023-08-18T18:00:37.966Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7f5d67c8-9c6c-4c96-b75b-dadc9fbf44a8",
+        "view_date": "2023-08-18T20:11:12.680Z",
+        "created_at": "2023-08-19T02:49:12.995Z",
+        "updated_at": "2023-08-19T06:13:38.033Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0b1c5b8e-6b0c-4548-9126-732375638590",
+        "view_date": "2023-08-19T01:53:44.975Z",
+        "created_at": "2023-08-19T13:12:41.427Z",
+        "updated_at": "2023-08-19T11:18:35.086Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "d3fa8ad6-598b-4920-9b29-c34bf1b5f352",
+        "email": "Elian_Kovacek@hotmail.com",
+        "firstName": "Corine",
+        "lastName": "Konopelski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1025.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3c310d14-2556-4149-a7ac-1647816055ae",
+        "email": "Erling_Bauch22@yahoo.com",
+        "firstName": "Sophie",
+        "lastName": "Schaefer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/71379064",
+        "tenantId": null
+      },
+      {
+        "reference": "1ce1ac5e-816e-479b-bd66-753211b63296",
+        "email": "Destini_Towne@yahoo.com",
+        "firstName": "Jadon",
+        "lastName": "Reilly",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/83143796",
+        "tenantId": null
+      },
+      {
+        "reference": "153fe2ab-b79d-48dc-bcc7-fc84134599a4",
+        "email": "Margarette.Collier@yahoo.com",
+        "firstName": "Brody",
+        "lastName": "MacGyver",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/60.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4e5d1992-9a87-4fe4-81c2-3cd0c2488d68",
+        "email": "Nora_Doyle68@yahoo.com",
+        "firstName": "Casey",
+        "lastName": "Jenkins",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/49176362",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "solar_plant": [
+      {
+        "id": "c109025b-f83c-47b4-8a01-329de6245bbf",
+        "commissioning_date": "2023-08-19T09:06:10.792Z",
+        "location": "California",
+        "asset_size": 20554,
+        "created_at": "2023-08-19T12:05:49.452Z",
+        "updated_at": "2023-08-18T18:48:38.701Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "1750ec1f-e40a-4a31-ab3e-46c131aa6ad6",
+        "commissioning_date": "2023-08-19T00:09:42.875Z",
+        "location": "Arizona",
+        "asset_size": 143,
+        "created_at": "2023-08-18T21:51:36.562Z",
+        "updated_at": "2023-08-18T23:44:20.655Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "cd1ecd5e-4a87-40f8-954d-04609ca9f105",
+        "commissioning_date": "2023-08-18T22:07:41.689Z",
+        "location": "Texas",
+        "asset_size": 59832,
+        "created_at": "2023-08-18T20:39:17.650Z",
+        "updated_at": "2023-08-18T17:36:39.872Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "843289bd-9b8f-4838-b6be-b87014660a46",
+        "commissioning_date": "2023-08-19T06:20:10.480Z",
+        "location": "Florida",
+        "asset_size": 49636,
+        "created_at": "2023-08-18T20:55:56.754Z",
+        "updated_at": "2023-08-19T07:16:25.739Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "1f9c4e4d-61c6-4e9f-a5d0-6162389de1cb",
+        "commissioning_date": "2023-08-18T16:56:36.151Z",
+        "location": "New York",
+        "asset_size": 36710,
+        "created_at": "2023-08-19T05:07:21.367Z",
+        "updated_at": "2023-08-19T02:12:26.450Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "plant_data": [
+      {
+        "id": "c65b01ae-2562-48b6-9f3f-6c4082036f59",
+        "data": "12.5 MW",
+        "upload_date": "2023-08-19T01:21:23.418Z",
+        "created_at": "2023-08-19T11:27:32.692Z",
+        "updated_at": "2023-08-18T18:25:59.892Z",
+        "solar_plant_id": "1750ec1f-e40a-4a31-ab3e-46c131aa6ad6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d869e920-bf5b-4184-9f33-949daa172a57",
+        "data": "8.2 MW",
+        "upload_date": "2023-08-19T09:47:10.027Z",
+        "created_at": "2023-08-19T06:03:11.105Z",
+        "updated_at": "2023-08-19T12:53:29.989Z",
+        "solar_plant_id": "c109025b-f83c-47b4-8a01-329de6245bbf",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a7c5398a-94b8-4d97-8f3c-a3302e332581",
+        "data": "15.7 MW",
+        "upload_date": "2023-08-19T11:07:55.334Z",
+        "created_at": "2023-08-18T18:08:18.136Z",
+        "updated_at": "2023-08-18T20:52:36.901Z",
+        "solar_plant_id": "843289bd-9b8f-4838-b6be-b87014660a46",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "db41b0f1-51e1-46db-bb41-b4484b2ab17d",
+        "data": "5.3 MW",
+        "upload_date": "2023-08-18T17:26:47.136Z",
+        "created_at": "2023-08-18T20:22:44.115Z",
+        "updated_at": "2023-08-18T19:12:35.860Z",
+        "solar_plant_id": "cd1ecd5e-4a87-40f8-954d-04609ca9f105",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2b4fc1bc-c49d-4bb8-93bd-e56544fbd047",
+        "data": "10.1 MW",
+        "upload_date": "2023-08-19T03:54:52.605Z",
+        "created_at": "2023-08-19T13:16:43.489Z",
+        "updated_at": "2023-08-19T12:20:22.249Z",
+        "solar_plant_id": "cd1ecd5e-4a87-40f8-954d-04609ca9f105",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "57b01330-8bd4-44ea-b5b3-d88b93f13f42",
+        "email": "invitee1@example.com",
+        "role": "Admin",
+        "status": "Pending",
+        "invited_by": "user_entity_pk",
+        "created_at": "2023-08-19T04:55:49.753Z",
+        "updated_at": "2023-08-18T22:23:29.803Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "faf44984-5074-4f88-8894-26f0f99cf4f2",
+        "email": "invitee2@example.com",
+        "role": "Manager",
+        "status": "Accepted",
+        "invited_by": "user_entity_pk",
+        "created_at": "2023-08-19T01:39:09.549Z",
+        "updated_at": "2023-08-18T15:17:47.533Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f33488e2-6ffe-4def-a758-35db1391feac",
+        "email": "invitee3@example.com",
+        "role": "Engineer",
+        "status": "Declined",
+        "invited_by": "user_entity_pk",
+        "created_at": "2023-08-18T18:02:01.459Z",
+        "updated_at": "2023-08-19T03:31:29.557Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "0fba7a12-8fef-4b23-ab11-262c7d0228d1",
+        "email": "invitee4@example.com",
+        "role": "Analyst",
+        "status": "Expired",
+        "invited_by": "user_entity_pk",
+        "created_at": "2023-08-19T13:53:47.597Z",
+        "updated_at": "2023-08-19T10:07:06.888Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "dcaabe5d-8369-4c16-94a6-b0bc428357e2",
+        "email": "invitee5@example.com",
+        "role": "Consultant",
+        "status": "Cancelled",
+        "invited_by": "user_entity_pk",
+        "created_at": "2023-08-19T14:13:52.139Z",
+        "updated_at": "2023-08-18T16:56:25.132Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "guest_view": [
+      {
+        "id": "39923826-d974-46e6-8067-410334aebf47",
+        "view_date": "2023-08-19T13:17:18.687Z",
+        "created_at": "2023-08-19T03:29:33.367Z",
+        "updated_at": "2023-08-18T18:25:19.703Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1ad1d0ff-1dea-4808-ad29-99457f34442e",
+        "view_date": "2023-08-18T16:07:35.006Z",
+        "created_at": "2023-08-19T04:44:23.955Z",
+        "updated_at": "2023-08-19T09:32:52.045Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8a516b6c-6abd-4b46-9482-fa00247bf864",
+        "view_date": "2023-08-19T13:21:12.514Z",
+        "created_at": "2023-08-19T04:30:05.021Z",
+        "updated_at": "2023-08-19T02:23:41.819Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fbaf7ecb-3a3c-4b04-b2d2-0e2b9537a8f5",
+        "view_date": "2023-08-19T03:14:53.211Z",
+        "created_at": "2023-08-19T13:49:59.891Z",
+        "updated_at": "2023-08-19T07:07:37.043Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d45e7949-cc87-469b-a0f2-747a5d63e452",
+        "view_date": "2023-08-19T05:04:46.053Z",
+        "created_at": "2023-08-18T18:50:56.825Z",
+        "updated_at": "2023-08-19T08:42:30.458Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "7b0e84b8-3daf-43fb-87bd-1ab175d3850e",
+        "email": "Fatima.Purdy-Blick70@hotmail.com",
+        "firstName": "Isaiah",
+        "lastName": "O'Connell",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/32963982",
+        "tenantId": null
+      },
+      {
+        "reference": "a04c18fa-8d4c-4eb9-949b-f85634dfbf2c",
+        "email": "Trent_Von@gmail.com",
+        "firstName": "Verlie",
+        "lastName": "Reichert",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/44661842",
+        "tenantId": null
+      },
+      {
+        "reference": "9eff0c60-634f-42f6-a9fb-790e96d3a5ba",
+        "email": "Maybell.Larson@gmail.com",
+        "firstName": "Allan",
+        "lastName": "Terry",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/97667875",
+        "tenantId": null
+      },
+      {
+        "reference": "07b13198-4579-4c29-b489-e00ef140cd1f",
+        "email": "Kole_Walter@hotmail.com",
+        "firstName": "Brionna",
+        "lastName": "Schulist-Herman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/471.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "fb7f9b9b-9272-489a-a1e9-412501c939f3",
+        "email": "Pearline7@yahoo.com",
+        "firstName": "Rosario",
+        "lastName": "Mosciski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/71372356",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "solar_plant": [
+      {
+        "id": "ce143c7d-a024-4a36-8b6c-f7249ac3c2a2",
+        "commissioning_date": "2023-08-18T21:24:22.608Z",
+        "location": "California",
+        "asset_size": 20001,
+        "created_at": "2023-08-18T20:03:21.281Z",
+        "updated_at": "2023-08-19T13:25:37.789Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "44b032ad-d3e0-4782-bbea-4f9a323029c0",
+        "commissioning_date": "2023-08-18T21:37:04.586Z",
+        "location": "Arizona",
+        "asset_size": 47430,
+        "created_at": "2023-08-19T13:32:18.336Z",
+        "updated_at": "2023-08-18T23:36:23.207Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "6a23c840-5afa-4aac-85ae-7884ae5bc873",
+        "commissioning_date": "2023-08-19T10:59:51.315Z",
+        "location": "Texas",
+        "asset_size": 23422,
+        "created_at": "2023-08-19T07:49:53.601Z",
+        "updated_at": "2023-08-19T08:01:03.315Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "908b3391-2fad-471f-b036-21f06df651be",
+        "commissioning_date": "2023-08-18T20:10:45.936Z",
+        "location": "Florida",
+        "asset_size": 78647,
+        "created_at": "2023-08-19T02:02:30.595Z",
+        "updated_at": "2023-08-19T14:18:48.195Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "9868ec20-ce6b-49e4-a081-6b7095fb32ff",
+        "commissioning_date": "2023-08-19T00:25:33.154Z",
+        "location": "New York",
+        "asset_size": 18341,
+        "created_at": "2023-08-18T16:18:33.741Z",
+        "updated_at": "2023-08-18T23:59:02.062Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "plant_data": [
+      {
+        "id": "658d3005-d43f-4c5c-a28c-91e87db37bea",
+        "data": "45.6 MW",
+        "upload_date": "2023-08-18T22:04:16.291Z",
+        "created_at": "2023-08-18T18:12:40.744Z",
+        "updated_at": "2023-08-19T03:49:52.782Z",
+        "solar_plant_id": "44b032ad-d3e0-4782-bbea-4f9a323029c0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "98b446bc-6b9a-4436-b660-0d742b743074",
+        "data": "32.1 MW",
+        "upload_date": "2023-08-19T10:30:50.113Z",
+        "created_at": "2023-08-19T01:47:37.927Z",
+        "updated_at": "2023-08-19T04:25:48.329Z",
+        "solar_plant_id": "44b032ad-d3e0-4782-bbea-4f9a323029c0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "db7910f0-e8be-4467-bad1-da0af0f05e32",
+        "data": "19.8 MW",
+        "upload_date": "2023-08-18T16:51:12.626Z",
+        "created_at": "2023-08-18T18:45:19.677Z",
+        "updated_at": "2023-08-18T14:54:20.191Z",
+        "solar_plant_id": "6a23c840-5afa-4aac-85ae-7884ae5bc873",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "93fb13c4-ed00-43ed-990e-caa41775d2b7",
+        "data": "27.3 MW",
+        "upload_date": "2023-08-19T09:16:24.455Z",
+        "created_at": "2023-08-19T04:38:36.175Z",
+        "updated_at": "2023-08-18T20:21:47.188Z",
+        "solar_plant_id": "ce143c7d-a024-4a36-8b6c-f7249ac3c2a2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3a5da17b-2a44-4fac-8e62-7d2cbde87f50",
+        "data": "51.2 MW",
+        "upload_date": "2023-08-18T21:03:27.891Z",
+        "created_at": "2023-08-18T16:09:25.257Z",
+        "updated_at": "2023-08-18T20:52:42.116Z",
+        "solar_plant_id": "6a23c840-5afa-4aac-85ae-7884ae5bc873",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "a7fabb84-c5f0-44e6-9347-ffb4e0a049a2",
+        "email": "invitee1@example.com",
+        "role": "Admin",
+        "status": "Pending",
+        "invited_by": "user_entity_pk",
+        "created_at": "2023-08-18T23:23:34.305Z",
+        "updated_at": "2023-08-18T17:38:57.890Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d585daea-630e-40ef-8a8c-7787e899d409",
+        "email": "invitee2@example.com",
+        "role": "Manager",
+        "status": "Accepted",
+        "invited_by": "user_entity_pk",
+        "created_at": "2023-08-19T12:03:47.440Z",
+        "updated_at": "2023-08-18T20:04:56.313Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "ccead033-706a-494a-b89f-336a1a305712",
+        "email": "invitee3@example.com",
+        "role": "Supervisor",
+        "status": "Declined",
+        "invited_by": "user_entity_pk",
+        "created_at": "2023-08-19T01:05:44.372Z",
+        "updated_at": "2023-08-19T05:24:15.409Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "72bc46ad-49ea-4957-9320-29a80aa62262",
+        "email": "invitee4@example.com",
+        "role": "Employee",
+        "status": "Expired",
+        "invited_by": "user_entity_pk",
+        "created_at": "2023-08-19T13:25:46.356Z",
+        "updated_at": "2023-08-18T22:52:02.757Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d73a3b86-b55e-4180-a67b-8b2fde2c04bb",
+        "email": "invitee5@example.com",
+        "role": "Contractor",
+        "status": "Cancelled",
+        "invited_by": "user_entity_pk",
+        "created_at": "2023-08-18T18:40:19.603Z",
+        "updated_at": "2023-08-19T10:54:59.432Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "guest_view": [
+      {
+        "id": "14c48ad3-97f6-4d76-a8a9-d7e21a12e100",
+        "view_date": "2023-08-19T10:11:52.327Z",
+        "created_at": "2023-08-19T07:37:24.351Z",
+        "updated_at": "2023-08-18T22:00:53.701Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5f7e8155-5373-4320-a05b-7debe3ba36dd",
+        "view_date": "2023-08-18T21:39:30.772Z",
+        "created_at": "2023-08-18T21:00:33.115Z",
+        "updated_at": "2023-08-18T23:22:50.934Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9824869c-7175-488c-9df8-a3d0998ede82",
+        "view_date": "2023-08-19T00:32:25.074Z",
+        "created_at": "2023-08-19T08:03:00.070Z",
+        "updated_at": "2023-08-19T01:40:29.667Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "be87322f-cd37-4d40-83e0-4e432c1768eb",
+        "view_date": "2023-08-18T19:27:42.276Z",
+        "created_at": "2023-08-19T14:34:49.891Z",
+        "updated_at": "2023-08-19T08:18:36.109Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "00956421-96c2-4b26-9b35-56d4595ee368",
+        "view_date": "2023-08-18T19:09:20.600Z",
+        "created_at": "2023-08-19T11:12:25.545Z",
+        "updated_at": "2023-08-19T05:28:40.378Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "b06bd83c-16ae-40a4-a010-983e0f8cf955",
+        "email": "Thomas.Fahey@yahoo.com",
+        "firstName": "Jewell",
+        "lastName": "Schuppe",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1169.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4e343dc3-5a60-4154-8cb0-2c1b5afeaf60",
+        "email": "Reed61@gmail.com",
+        "firstName": "Lindsey",
+        "lastName": "Schulist",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1079.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a954ffba-3500-4f5f-8689-b81064bc86c3",
+        "email": "Colton_Koss13@gmail.com",
+        "firstName": "Daren",
+        "lastName": "Konopelski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/437.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c1685e18-f888-4611-af46-6c7d77ca4dad",
+        "email": "Creola_Hagenes@yahoo.com",
+        "firstName": "Narciso",
+        "lastName": "Kulas",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19540114",
+        "tenantId": null
+      },
+      {
+        "reference": "ad7d85bd-724c-4890-86d5-f0ddad436607",
+        "email": "Aditya6@gmail.com",
+        "firstName": "Kamille",
+        "lastName": "Mueller",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/63739057",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "solar_plant": [
+      {
+        "id": "2fc6d725-a4b1-4738-b670-27e821ca7782",
+        "commissioning_date": "2023-08-18T20:12:28.377Z",
+        "location": "California",
+        "asset_size": 77992,
+        "created_at": "2023-08-19T13:42:52.226Z",
+        "updated_at": "2023-08-19T06:30:39.997Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "85b08d40-f388-437c-a3fc-c986b0095542",
+        "commissioning_date": "2023-08-19T12:46:03.668Z",
+        "location": "Arizona",
+        "asset_size": 12426,
+        "created_at": "2023-08-18T22:16:29.161Z",
+        "updated_at": "2023-08-19T09:11:03.994Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "fccdbc8d-ef04-41b1-b140-e532515ed86f",
+        "commissioning_date": "2023-08-19T08:02:09.817Z",
+        "location": "Texas",
+        "asset_size": 57723,
+        "created_at": "2023-08-19T09:08:18.480Z",
+        "updated_at": "2023-08-19T02:49:54.916Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d84e1b23-b656-42b9-bbca-17c52c395dec",
+        "commissioning_date": "2023-08-18T20:34:18.626Z",
+        "location": "Florida",
+        "asset_size": 10288,
+        "created_at": "2023-08-19T02:17:17.777Z",
+        "updated_at": "2023-08-18T16:38:25.975Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "b7b31469-2fb0-4304-80a6-d9006aaf5602",
+        "commissioning_date": "2023-08-18T14:43:35.244Z",
+        "location": "New York",
+        "asset_size": 83599,
+        "created_at": "2023-08-19T08:47:33.954Z",
+        "updated_at": "2023-08-19T01:05:39.271Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "plant_data": [
+      {
+        "id": "a5a3a16f-521e-4b12-81a4-0e75ee326b31",
+        "data": "25 MW",
+        "upload_date": "2023-08-19T08:45:27.525Z",
+        "created_at": "2023-08-19T06:29:42.789Z",
+        "updated_at": "2023-08-19T02:14:13.327Z",
+        "solar_plant_id": "d84e1b23-b656-42b9-bbca-17c52c395dec",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "166942e8-6fdd-4777-a7e1-6c3884555894",
+        "data": "15 MW",
+        "upload_date": "2023-08-19T09:31:43.114Z",
+        "created_at": "2023-08-19T11:18:06.876Z",
+        "updated_at": "2023-08-18T22:55:55.159Z",
+        "solar_plant_id": "d84e1b23-b656-42b9-bbca-17c52c395dec",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dfe35232-5998-4c98-9ccf-57bb6f474cd7",
+        "data": "10 MW",
+        "upload_date": "2023-08-18T17:08:15.051Z",
+        "created_at": "2023-08-18T21:16:02.229Z",
+        "updated_at": "2023-08-19T02:56:13.251Z",
+        "solar_plant_id": "2fc6d725-a4b1-4738-b670-27e821ca7782",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "baac1a32-064d-4793-bd4f-7f34d60808b1",
+        "data": "30 MW",
+        "upload_date": "2023-08-19T13:44:43.599Z",
+        "created_at": "2023-08-19T10:00:15.365Z",
+        "updated_at": "2023-08-18T17:43:57.009Z",
+        "solar_plant_id": "85b08d40-f388-437c-a3fc-c986b0095542",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1e6f77d2-2e5f-4aad-8abc-bf3a058dad27",
+        "data": "20 MW",
+        "upload_date": "2023-08-18T18:38:47.949Z",
+        "created_at": "2023-08-19T08:03:26.179Z",
+        "updated_at": "2023-08-19T02:45:56.380Z",
+        "solar_plant_id": "2fc6d725-a4b1-4738-b670-27e821ca7782",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "3860f49d-8964-4c22-8d04-a43eb8504611",
+        "email": "invitee1@example.com",
+        "role": "Admin",
+        "status": "Pending",
+        "invited_by": "user_entity_pk",
+        "created_at": "2023-08-18T17:39:11.294Z",
+        "updated_at": "2023-08-19T06:41:03.021Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "7c259dba-404e-4b66-a657-39e2fb1a8c08",
+        "email": "invitee2@example.com",
+        "role": "Manager",
+        "status": "Accepted",
+        "invited_by": "user_entity_pk",
+        "created_at": "2023-08-18T18:19:30.423Z",
+        "updated_at": "2023-08-19T07:18:22.958Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "820c6273-bf57-45a1-b185-e34f3dc99f45",
+        "email": "invitee3@example.com",
+        "role": "Engineer",
+        "status": "Declined",
+        "invited_by": "user_entity_pk",
+        "created_at": "2023-08-19T05:01:52.236Z",
+        "updated_at": "2023-08-19T00:00:20.383Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "62d4be3d-9eb4-405d-8b45-cc6c91380783",
+        "email": "invitee4@example.com",
+        "role": "Analyst",
+        "status": "Expired",
+        "invited_by": "user_entity_pk",
+        "created_at": "2023-08-19T00:01:32.091Z",
+        "updated_at": "2023-08-19T12:46:05.608Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "a3722aa4-442a-4126-80a8-228cee1b7361",
+        "email": "invitee5@example.com",
+        "role": "Supervisor",
+        "status": "Cancelled",
+        "invited_by": "user_entity_pk",
+        "created_at": "2023-08-19T10:22:10.686Z",
+        "updated_at": "2023-08-19T06:05:02.833Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "guest_view": [
+      {
+        "id": "37b28d6c-d263-4fdd-a3cc-8b4b0c93eb76",
+        "view_date": "2023-08-19T04:26:33.789Z",
+        "created_at": "2023-08-18T19:30:58.660Z",
+        "updated_at": "2023-08-19T13:59:41.230Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7dd80a29-26b6-4eb8-ae47-e037a808bf78",
+        "view_date": "2023-08-18T15:38:53.941Z",
+        "created_at": "2023-08-19T14:09:31.971Z",
+        "updated_at": "2023-08-19T04:26:50.117Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5d2e9755-c834-4276-8b78-a44a257993bb",
+        "view_date": "2023-08-18T23:18:07.752Z",
+        "created_at": "2023-08-19T12:53:40.147Z",
+        "updated_at": "2023-08-18T20:42:56.687Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d5cda972-7a9e-4a22-bea5-5178787669bd",
+        "view_date": "2023-08-19T05:17:21.943Z",
+        "created_at": "2023-08-19T06:01:46.672Z",
+        "updated_at": "2023-08-18T20:30:03.861Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5f5a6765-d59d-4300-aa5b-7ddec331a0fe",
+        "view_date": "2023-08-18T17:21:53.059Z",
+        "created_at": "2023-08-19T06:16:34.565Z",
+        "updated_at": "2023-08-19T05:44:22.347Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "d917916a-b7ff-4b3f-aca0-4f01f7714de8",
+        "email": "Laron.Ritchie@gmail.com",
+        "firstName": "Tristian",
+        "lastName": "Ratke",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/96717569",
+        "tenantId": null
+      },
+      {
+        "reference": "59056d25-5140-4110-9017-0e6c54d74f93",
+        "email": "Aiyana58@hotmail.com",
+        "firstName": "Angus",
+        "lastName": "Langworth",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/79869533",
+        "tenantId": null
+      },
+      {
+        "reference": "813f0eb5-448c-44e0-9274-32b646796c20",
+        "email": "Loraine99@hotmail.com",
+        "firstName": "Karianne",
+        "lastName": "Hudson-Towne",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/91263633",
+        "tenantId": null
+      },
+      {
+        "reference": "2dd8dd3a-5b45-456a-86c9-5c6988f3c0dc",
+        "email": "Murphy.Lubowitz@hotmail.com",
+        "firstName": "Dixie",
+        "lastName": "Yost",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/186577",
+        "tenantId": null
+      },
+      {
+        "reference": "a83b1789-f1bc-4250-901d-890ea6e0f9db",
+        "email": "Zena_Goodwin98@hotmail.com",
+        "firstName": "Karolann",
+        "lastName": "Sipes",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/504.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "solar_plant": [
+      {
+        "id": "7b60b58f-1a66-423b-8cc2-4a524d441fe0",
+        "commissioning_date": "2023-08-19T12:45:19.577Z",
+        "location": "California",
+        "asset_size": 18907,
+        "created_at": "2023-08-19T10:21:12.140Z",
+        "updated_at": "2023-08-19T00:18:35.540Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "072f87a6-2dff-4ad1-91df-f20b6eadf7ea",
+        "commissioning_date": "2023-08-19T14:03:17.142Z",
+        "location": "Arizona",
+        "asset_size": 79496,
+        "created_at": "2023-08-19T06:08:00.794Z",
+        "updated_at": "2023-08-19T08:47:26.562Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "2c7afcbf-eaff-4137-a236-06b192d7ddf6",
+        "commissioning_date": "2023-08-19T01:14:13.432Z",
+        "location": "Texas",
+        "asset_size": 20106,
+        "created_at": "2023-08-19T06:00:14.395Z",
+        "updated_at": "2023-08-19T11:30:32.352Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "31a21bbb-a1e9-4448-9346-20e5dab9827c",
+        "commissioning_date": "2023-08-19T14:16:18.968Z",
+        "location": "Florida",
+        "asset_size": 48488,
+        "created_at": "2023-08-19T05:03:27.860Z",
+        "updated_at": "2023-08-19T11:37:12.209Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "5932118c-0859-4e2e-8559-c2c7bcd41007",
+        "commissioning_date": "2023-08-18T16:31:22.712Z",
+        "location": "New York",
+        "asset_size": 75431,
+        "created_at": "2023-08-19T11:03:41.512Z",
+        "updated_at": "2023-08-18T15:32:10.499Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "plant_data": [
+      {
+        "id": "8dd2542c-a2b8-4c18-b28a-70024a2208f5",
+        "data": "2021-01-01",
+        "upload_date": "2023-08-19T02:58:39.657Z",
+        "created_at": "2023-08-19T07:41:51.547Z",
+        "updated_at": "2023-08-18T15:02:35.096Z",
+        "solar_plant_id": "2c7afcbf-eaff-4137-a236-06b192d7ddf6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6f4dd35d-485d-4d06-9fe1-d55c51394236",
+        "data": "2021-02-01",
+        "upload_date": "2023-08-19T01:14:18.181Z",
+        "created_at": "2023-08-19T08:32:15.842Z",
+        "updated_at": "2023-08-18T23:26:14.700Z",
+        "solar_plant_id": "5932118c-0859-4e2e-8559-c2c7bcd41007",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a9923aba-9efc-4ee7-8d12-7f940fe82092",
+        "data": "2021-03-01",
+        "upload_date": "2023-08-19T13:47:55.690Z",
+        "created_at": "2023-08-18T23:59:36.758Z",
+        "updated_at": "2023-08-19T08:28:08.754Z",
+        "solar_plant_id": "31a21bbb-a1e9-4448-9346-20e5dab9827c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c041203a-589e-4c12-8a5a-f8838065e0b3",
+        "data": "2021-04-01",
+        "upload_date": "2023-08-18T15:19:35.562Z",
+        "created_at": "2023-08-19T06:49:22.556Z",
+        "updated_at": "2023-08-18T14:58:54.479Z",
+        "solar_plant_id": "7b60b58f-1a66-423b-8cc2-4a524d441fe0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9603d1b8-47a9-4f66-8189-f78e2cac0c95",
+        "data": "2021-05-01",
+        "upload_date": "2023-08-18T14:45:40.393Z",
+        "created_at": "2023-08-19T10:16:05.248Z",
+        "updated_at": "2023-08-19T08:45:57.177Z",
+        "solar_plant_id": "2c7afcbf-eaff-4137-a236-06b192d7ddf6",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "16957ff9-b0d9-4a9c-9141-33681737e84d",
+        "email": "invitee1@example.com",
+        "role": "Admin",
+        "status": "Pending",
+        "invited_by": "user_entity_pk",
+        "created_at": "2023-08-19T09:23:22.244Z",
+        "updated_at": "2023-08-19T09:25:24.347Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "4797f131-fe2b-4d4f-b9c7-f3c5c08647e5",
+        "email": "invitee2@example.com",
+        "role": "Manager",
+        "status": "Accepted",
+        "invited_by": "user_entity_pk",
+        "created_at": "2023-08-19T01:20:04.976Z",
+        "updated_at": "2023-08-18T18:02:22.692Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "7df35d39-61e3-4f6f-8016-134f675fe265",
+        "email": "invitee3@example.com",
+        "role": "Employee",
+        "status": "Declined",
+        "invited_by": "user_entity_pk",
+        "created_at": "2023-08-18T21:57:23.933Z",
+        "updated_at": "2023-08-19T11:09:57.583Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "387056f6-ebce-4335-a29c-8fb879ac2809",
+        "email": "invitee4@example.com",
+        "role": "Supervisor",
+        "status": "Expired",
+        "invited_by": "user_entity_pk",
+        "created_at": "2023-08-19T05:15:35.321Z",
+        "updated_at": "2023-08-19T04:55:35.453Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "e4a3e474-590b-44df-8b0d-1fdb23799d97",
+        "email": "invitee5@example.com",
+        "role": "Analyst",
+        "status": "Cancelled",
+        "invited_by": "user_entity_pk",
+        "created_at": "2023-08-18T19:37:38.052Z",
+        "updated_at": "2023-08-18T17:00:23.384Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "guest_view": [
+      {
+        "id": "265ca492-7c3e-4e3b-815c-78670ac2ad98",
+        "view_date": "2023-08-18T20:18:53.858Z",
+        "created_at": "2023-08-18T18:51:50.783Z",
+        "updated_at": "2023-08-18T17:30:43.042Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "85edf752-6738-4462-b030-c328b214812c",
+        "view_date": "2023-08-18T18:49:04.775Z",
+        "created_at": "2023-08-19T06:44:49.894Z",
+        "updated_at": "2023-08-19T09:31:28.332Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a56ec35b-f43a-4719-bf9a-e4bdf683f46e",
+        "view_date": "2023-08-18T20:04:11.943Z",
+        "created_at": "2023-08-18T22:53:59.268Z",
+        "updated_at": "2023-08-18T18:30:17.584Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4ecc93dd-60b0-43d2-bfc4-2773afd41eb1",
+        "view_date": "2023-08-19T14:13:00.154Z",
+        "created_at": "2023-08-19T05:53:02.997Z",
+        "updated_at": "2023-08-19T10:23:07.762Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8fbf5ec9-2fef-4f16-a283-63cd36fbed99",
+        "view_date": "2023-08-19T03:43:39.526Z",
+        "created_at": "2023-08-18T21:31:28.899Z",
+        "updated_at": "2023-08-19T06:58:35.182Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c87bc6b4-9f2e-4546-9595-f39a53612262",
+        "email": "Curtis_Bruen@hotmail.com",
+        "firstName": "Norris",
+        "lastName": "Brown",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/227.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "eb61099b-6ed1-4e4f-b525-dda40c867ede",
+        "email": "Teresa23@gmail.com",
+        "firstName": "Renee",
+        "lastName": "Zemlak",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/476.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ad3f93d5-0e0c-4423-9a87-649b3a237b89",
+        "email": "Millie.Gottlieb11@yahoo.com",
+        "firstName": "Enoch",
+        "lastName": "McLaughlin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/374.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b05b5439-a78c-45eb-920a-a0994e7308f4",
+        "email": "Roel_Heaney@gmail.com",
+        "firstName": "Benjamin",
+        "lastName": "Pagac",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/73374173",
+        "tenantId": null
+      },
+      {
+        "reference": "4da7ab4f-af34-471e-938c-59af74fcd400",
+        "email": "Gabriella66@yahoo.com",
+        "firstName": "Soledad",
+        "lastName": "Considine",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/947.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "solar_plant": [
+      {
+        "id": "19e339e5-f39a-44d0-92f0-d96a70681454",
+        "commissioning_date": "2023-08-18T15:58:10.255Z",
+        "location": "Location 1",
+        "asset_size": 67316,
+        "created_at": "2023-08-19T10:43:51.326Z",
+        "updated_at": "2023-08-19T00:17:54.251Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "0923ddf5-a3ef-46ee-9b90-ace6ad4bb3f3",
+        "commissioning_date": "2023-08-18T14:42:43.967Z",
+        "location": "Location 2",
+        "asset_size": 3566,
+        "created_at": "2023-08-18T22:49:30.015Z",
+        "updated_at": "2023-08-19T13:09:30.884Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "6c5d604c-42a6-4401-834f-db61014d75b8",
+        "commissioning_date": "2023-08-19T04:12:28.653Z",
+        "location": "Location 3",
+        "asset_size": 55357,
+        "created_at": "2023-08-18T14:55:26.753Z",
+        "updated_at": "2023-08-19T06:03:32.599Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "9a590be6-e0b4-43db-97f5-faec12851200",
+        "commissioning_date": "2023-08-19T00:07:12.494Z",
+        "location": "Location 4",
+        "asset_size": 43990,
+        "created_at": "2023-08-18T15:51:58.996Z",
+        "updated_at": "2023-08-19T10:34:30.908Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "7371599d-8e2d-40cf-a392-ac52fff3239a",
+        "commissioning_date": "2023-08-18T23:56:26.771Z",
+        "location": "Location 5",
+        "asset_size": 18761,
+        "created_at": "2023-08-18T15:33:08.653Z",
+        "updated_at": "2023-08-19T09:34:13.229Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "plant_data": [
+      {
+        "id": "ae80dd51-3be3-4ceb-9042-4f36ca5cdec3",
+        "data": "Data 1",
+        "upload_date": "2023-08-19T07:53:29.363Z",
+        "created_at": "2023-08-19T13:27:10.439Z",
+        "updated_at": "2023-08-18T18:06:36.524Z",
+        "solar_plant_id": "9a590be6-e0b4-43db-97f5-faec12851200",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b480b030-1bd7-463b-93d2-95f4f8a935da",
+        "data": "Data 2",
+        "upload_date": "2023-08-19T01:18:03.027Z",
+        "created_at": "2023-08-19T00:56:22.855Z",
+        "updated_at": "2023-08-19T09:23:56.455Z",
+        "solar_plant_id": "9a590be6-e0b4-43db-97f5-faec12851200",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "44818e50-158b-43f7-a8a5-284dc56185ac",
+        "data": "Data 3",
+        "upload_date": "2023-08-18T16:55:24.222Z",
+        "created_at": "2023-08-19T11:07:57.207Z",
+        "updated_at": "2023-08-19T13:29:16.798Z",
+        "solar_plant_id": "19e339e5-f39a-44d0-92f0-d96a70681454",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0ca8ef70-671b-41a1-b220-07794ab2ff98",
+        "data": "Data 4",
+        "upload_date": "2023-08-18T16:25:03.322Z",
+        "created_at": "2023-08-18T18:22:48.809Z",
+        "updated_at": "2023-08-19T05:18:12.374Z",
+        "solar_plant_id": "19e339e5-f39a-44d0-92f0-d96a70681454",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fcff8159-ae9c-46dc-bfd0-abdc05622c12",
+        "data": "Data 5",
+        "upload_date": "2023-08-19T02:40:06.543Z",
+        "created_at": "2023-08-18T22:27:48.724Z",
+        "updated_at": "2023-08-18T15:08:31.169Z",
+        "solar_plant_id": "19e339e5-f39a-44d0-92f0-d96a70681454",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "8a1c253a-69c5-4278-8d56-aa7b24ec9803",
+        "email": "invitee1@example.com",
+        "role": "Role 1",
+        "status": "Status 1",
+        "invited_by": "user_entity_pk",
+        "created_at": "2023-08-19T06:46:41.497Z",
+        "updated_at": "2023-08-19T13:50:17.369Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "39d9bf4a-eb2b-41bd-ae02-33263ac095ab",
+        "email": "invitee2@example.com",
+        "role": "Role 2",
+        "status": "Status 2",
+        "invited_by": "user_entity_pk",
+        "created_at": "2023-08-18T22:50:25.743Z",
+        "updated_at": "2023-08-19T03:55:40.378Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "93d463e5-82d6-4673-9f29-c49be77908d8",
+        "email": "invitee3@example.com",
+        "role": "Role 3",
+        "status": "Status 3",
+        "invited_by": "user_entity_pk",
+        "created_at": "2023-08-19T03:11:17.886Z",
+        "updated_at": "2023-08-19T01:44:34.201Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "faeabab1-c449-49dd-a066-ee41cb3eef13",
+        "email": "invitee4@example.com",
+        "role": "Role 4",
+        "status": "Status 4",
+        "invited_by": "user_entity_pk",
+        "created_at": "2023-08-19T02:50:37.455Z",
+        "updated_at": "2023-08-19T00:12:21.468Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "86943ef1-b5be-4316-ab9e-f1f734fa7f2b",
+        "email": "invitee5@example.com",
+        "role": "Role 5",
+        "status": "Status 5",
+        "invited_by": "user_entity_pk",
+        "created_at": "2023-08-19T11:32:46.050Z",
+        "updated_at": "2023-08-19T05:02:18.488Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "guest_view": [
+      {
+        "id": "270fec61-7d18-4d9d-99c8-67b0b883f796",
+        "view_date": "2023-08-18T16:42:36.738Z",
+        "created_at": "2023-08-18T15:06:51.142Z",
+        "updated_at": "2023-08-19T12:29:46.769Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f6cd9220-dab5-42f2-852f-c092dbd6e3cb",
+        "view_date": "2023-08-19T01:20:48.968Z",
+        "created_at": "2023-08-19T06:47:52.488Z",
+        "updated_at": "2023-08-19T05:56:09.832Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c8a56c6b-973d-4ce7-bd3f-6bdc999142a2",
+        "view_date": "2023-08-19T13:07:27.119Z",
+        "created_at": "2023-08-18T16:12:36.175Z",
+        "updated_at": "2023-08-19T12:24:05.665Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0ee04812-a103-4ecb-9b9c-ac4450211d7b",
+        "view_date": "2023-08-18T15:58:20.331Z",
+        "created_at": "2023-08-18T17:39:23.621Z",
+        "updated_at": "2023-08-19T01:41:04.419Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ce87c7d6-e69c-4ea2-9f30-ad895e0ef82e",
+        "view_date": "2023-08-19T01:16:05.853Z",
+        "created_at": "2023-08-18T15:37:44.704Z",
+        "updated_at": "2023-08-18T22:22:19.746Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "cc67e7a4-65ae-4d6e-8310-7a97fa5d8545",
+        "email": "Tia_Prohaska65@gmail.com",
+        "firstName": "Lina",
+        "lastName": "Hand",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1045.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9d999537-c51e-4a4d-8318-445604139ead",
+        "email": "Kieran47@hotmail.com",
+        "firstName": "Susana",
+        "lastName": "Keebler",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/58137200",
+        "tenantId": null
+      },
+      {
+        "reference": "6b24dc98-f7af-45ff-83bf-ce49119592f8",
+        "email": "Alexandro.Blick@hotmail.com",
+        "firstName": "William",
+        "lastName": "Kutch",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/75813546",
+        "tenantId": null
+      },
+      {
+        "reference": "d66d00bb-fe9d-4d11-91d9-040faf1443ab",
+        "email": "Melisa24@gmail.com",
+        "firstName": "Dorothy",
+        "lastName": "Hermann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/128.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f408146a-1a65-4f69-8a50-7f32ae3f05b0",
+        "email": "Jonas.Kutch28@hotmail.com",
+        "firstName": "Ruby",
+        "lastName": "Gulgowski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/577.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "solar_plant": [
+      {
+        "id": "f9484030-d685-4327-bd18-ea19c476759f",
+        "commissioning_date": "2023-08-19T14:09:12.108Z",
+        "location": "California",
+        "asset_size": 73048,
+        "created_at": "2023-08-19T06:47:13.032Z",
+        "updated_at": "2023-08-19T14:29:20.425Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "945fa85a-194c-4fe9-b41d-6a51263c59b3",
+        "commissioning_date": "2023-08-18T15:27:29.292Z",
+        "location": "Arizona",
+        "asset_size": 1540,
+        "created_at": "2023-08-19T09:45:49.518Z",
+        "updated_at": "2023-08-19T04:10:27.872Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "4f80dc12-e2b2-4e3d-a0c0-e46b983955f0",
+        "commissioning_date": "2023-08-18T19:50:46.501Z",
+        "location": "Texas",
+        "asset_size": 34854,
+        "created_at": "2023-08-18T16:04:58.332Z",
+        "updated_at": "2023-08-19T06:21:02.898Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "cada81cb-1b72-4f25-a0e1-da949fc10812",
+        "commissioning_date": "2023-08-18T23:09:43.248Z",
+        "location": "Florida",
+        "asset_size": 61174,
+        "created_at": "2023-08-18T17:27:06.879Z",
+        "updated_at": "2023-08-18T15:27:40.486Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "a7c01cad-2ee6-4ce0-a03b-326f16421e62",
+        "commissioning_date": "2023-08-19T04:11:11.657Z",
+        "location": "Nevada",
+        "asset_size": 20231,
+        "created_at": "2023-08-18T18:20:19.119Z",
+        "updated_at": "2023-08-19T14:33:15.216Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "plant_data": [
+      {
+        "id": "aa4df6b9-2906-4b94-90da-80eca85de506",
+        "data": "Measurement 1",
+        "upload_date": "2023-08-19T09:38:41.415Z",
+        "created_at": "2023-08-18T16:48:25.237Z",
+        "updated_at": "2023-08-19T04:59:45.814Z",
+        "solar_plant_id": "f9484030-d685-4327-bd18-ea19c476759f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2553ef63-9abd-4288-bd02-604fa4abb610",
+        "data": "Measurement 2",
+        "upload_date": "2023-08-18T21:20:44.676Z",
+        "created_at": "2023-08-18T17:03:43.380Z",
+        "updated_at": "2023-08-19T01:32:58.429Z",
+        "solar_plant_id": "945fa85a-194c-4fe9-b41d-6a51263c59b3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4aa3472d-596c-4a8a-a19c-fd2bb04fea51",
+        "data": "Measurement 3",
+        "upload_date": "2023-08-18T19:13:04.414Z",
+        "created_at": "2023-08-18T16:01:13.520Z",
+        "updated_at": "2023-08-19T11:05:25.722Z",
+        "solar_plant_id": "945fa85a-194c-4fe9-b41d-6a51263c59b3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dcde28a3-b5c2-47ad-a349-f824535b0312",
+        "data": "Measurement 4",
+        "upload_date": "2023-08-19T05:58:15.831Z",
+        "created_at": "2023-08-19T09:28:27.518Z",
+        "updated_at": "2023-08-18T16:59:45.136Z",
+        "solar_plant_id": "4f80dc12-e2b2-4e3d-a0c0-e46b983955f0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "35576dd6-c5ed-474c-af47-187a315f2589",
+        "data": "Measurement 5",
+        "upload_date": "2023-08-19T09:12:23.914Z",
+        "created_at": "2023-08-18T22:58:42.934Z",
+        "updated_at": "2023-08-18T23:03:52.560Z",
+        "solar_plant_id": "4f80dc12-e2b2-4e3d-a0c0-e46b983955f0",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "797193ca-b779-4f1d-9eba-fe7ddf171cd7",
+        "email": "invitee1@example.com",
+        "role": "Admin",
+        "status": "Pending",
+        "invited_by": "user_entity_pk",
+        "created_at": "2023-08-19T07:46:08.550Z",
+        "updated_at": "2023-08-18T19:30:58.079Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "9f9eb85d-d7af-452a-94d0-61d37244b624",
+        "email": "invitee2@example.com",
+        "role": "Manager",
+        "status": "Accepted",
+        "invited_by": "user_entity_pk",
+        "created_at": "2023-08-18T20:01:01.897Z",
+        "updated_at": "2023-08-18T19:49:47.386Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "3c02da3e-a95b-4a05-8ee0-a639c0004960",
+        "email": "invitee3@example.com",
+        "role": "Member",
+        "status": "Declined",
+        "invited_by": "user_entity_pk",
+        "created_at": "2023-08-19T01:59:41.935Z",
+        "updated_at": "2023-08-18T22:33:24.851Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "80f1f990-9053-48f4-bfb4-3b548c2c907b",
+        "email": "invitee4@example.com",
+        "role": "Guest",
+        "status": "Expired",
+        "invited_by": "user_entity_pk",
+        "created_at": "2023-08-19T05:42:01.452Z",
+        "updated_at": "2023-08-19T12:09:21.499Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "2147aa3f-07fc-452e-890b-b7374a408ba5",
+        "email": "invitee5@example.com",
+        "role": "Observer",
+        "status": "Revoked",
+        "invited_by": "user_entity_pk",
+        "created_at": "2023-08-19T13:21:43.164Z",
+        "updated_at": "2023-08-19T09:24:39.385Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "guest_view": [
+      {
+        "id": "d4bf9e3e-9604-4a9c-8e05-92426b45fb0d",
+        "view_date": "2023-08-19T01:57:23.526Z",
+        "created_at": "2023-08-19T08:18:57.709Z",
+        "updated_at": "2023-08-18T18:16:01.808Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "62e0d73e-3722-40d2-8763-8846bc87a460",
+        "view_date": "2023-08-19T01:12:40.537Z",
+        "created_at": "2023-08-18T22:29:20.501Z",
+        "updated_at": "2023-08-18T17:28:29.539Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e4732408-2efa-4436-a001-a59e10a1d85c",
+        "view_date": "2023-08-18T17:47:51.661Z",
+        "created_at": "2023-08-19T11:29:58.090Z",
+        "updated_at": "2023-08-18T14:44:18.322Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "390763c5-40d0-4892-83b9-ab681afc0514",
+        "view_date": "2023-08-18T21:25:16.337Z",
+        "created_at": "2023-08-18T23:00:12.640Z",
+        "updated_at": "2023-08-18T22:10:48.242Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "78a8caac-b567-4746-ac9f-162003756037",
+        "view_date": "2023-08-19T13:43:42.810Z",
+        "created_at": "2023-08-19T09:06:04.016Z",
+        "updated_at": "2023-08-18T22:37:28.101Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "ad91a986-d6e3-4e6f-b321-d966a0161a36",
+        "email": "Santina_Nader@gmail.com",
+        "firstName": "Terrance",
+        "lastName": "Hickle",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/25414107",
+        "tenantId": null
+      },
+      {
+        "reference": "7a2a73ae-e15c-4e40-8d06-f157d3fdbadd",
+        "email": "Maia31@hotmail.com",
+        "firstName": "Lucile",
+        "lastName": "Bradtke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1163.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ff00c16d-59b6-4664-9189-e735b1cfeb6b",
+        "email": "General.Murazik97@hotmail.com",
+        "firstName": "Eleazar",
+        "lastName": "Ratke",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/97296248",
+        "tenantId": null
+      },
+      {
+        "reference": "1f7aa577-61e8-4a6b-adb1-b3e84376ac45",
+        "email": "Cleora_Hills92@hotmail.com",
+        "firstName": "Dino",
+        "lastName": "Kuhic",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/38466882",
+        "tenantId": null
+      },
+      {
+        "reference": "65285764-6bac-4900-9c24-846fda8d755c",
+        "email": "Juliana_Kutch26@gmail.com",
+        "firstName": "Mathias",
+        "lastName": "Brown",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6650898",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "solar_plant": [
+      {
+        "id": "4b042139-9a04-4ccf-a7e2-01a38bbf3b7a",
+        "commissioning_date": "2023-08-18T15:11:25.482Z",
+        "location": "California",
+        "asset_size": 82044,
+        "created_at": "2023-08-18T22:43:16.587Z",
+        "updated_at": "2023-08-19T07:48:20.863Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "a77296dc-d2d7-444f-a6ea-d0e372dcc5cf",
+        "commissioning_date": "2023-08-19T04:27:42.626Z",
+        "location": "Texas",
+        "asset_size": 94542,
+        "created_at": "2023-08-19T08:40:28.314Z",
+        "updated_at": "2023-08-18T19:34:24.062Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "4f27690f-6e37-450d-b8f8-2e82fc23dfdf",
+        "commissioning_date": "2023-08-19T12:18:55.687Z",
+        "location": "New York",
+        "asset_size": 36998,
+        "created_at": "2023-08-19T03:52:27.989Z",
+        "updated_at": "2023-08-19T01:59:48.399Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "0d8edce2-bba2-409f-bb9b-0bfe31c98e82",
+        "commissioning_date": "2023-08-19T01:14:09.314Z",
+        "location": "Florida",
+        "asset_size": 73483,
+        "created_at": "2023-08-19T09:13:07.237Z",
+        "updated_at": "2023-08-18T22:56:25.638Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "2f24c62c-50b2-4d22-a4dc-70a32c693e92",
+        "commissioning_date": "2023-08-19T00:23:26.508Z",
+        "location": "Arizona",
+        "asset_size": 33549,
+        "created_at": "2023-08-18T23:02:30.806Z",
+        "updated_at": "2023-08-19T09:26:16.895Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "plant_data": [
+      {
+        "id": "003ffeb0-48c3-482e-a365-1b73683e2ee1",
+        "data": "Data 1",
+        "upload_date": "2023-08-19T00:09:37.582Z",
+        "created_at": "2023-08-18T19:48:38.245Z",
+        "updated_at": "2023-08-18T22:48:59.671Z",
+        "solar_plant_id": "4b042139-9a04-4ccf-a7e2-01a38bbf3b7a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "48a0d5bc-16ca-4a64-a464-9dd4c791cce7",
+        "data": "Data 2",
+        "upload_date": "2023-08-18T21:33:12.269Z",
+        "created_at": "2023-08-19T10:37:54.386Z",
+        "updated_at": "2023-08-19T12:25:34.761Z",
+        "solar_plant_id": "a77296dc-d2d7-444f-a6ea-d0e372dcc5cf",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "77bf3186-9fdc-424b-b55c-5e1d4d43c133",
+        "data": "Data 3",
+        "upload_date": "2023-08-18T23:45:19.759Z",
+        "created_at": "2023-08-18T15:21:36.038Z",
+        "updated_at": "2023-08-19T09:56:37.381Z",
+        "solar_plant_id": "4b042139-9a04-4ccf-a7e2-01a38bbf3b7a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "94040679-58b1-4d49-8296-c9f53fa044af",
+        "data": "Data 4",
+        "upload_date": "2023-08-19T12:13:19.511Z",
+        "created_at": "2023-08-19T04:38:08.536Z",
+        "updated_at": "2023-08-19T02:35:43.585Z",
+        "solar_plant_id": "4f27690f-6e37-450d-b8f8-2e82fc23dfdf",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4d9f266e-524c-45a6-9443-cb28ff84128d",
+        "data": "Data 5",
+        "upload_date": "2023-08-18T14:57:39.827Z",
+        "created_at": "2023-08-19T04:57:10.519Z",
+        "updated_at": "2023-08-19T08:22:58.519Z",
+        "solar_plant_id": "4b042139-9a04-4ccf-a7e2-01a38bbf3b7a",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "03a38d56-d72b-4bcf-876c-ced682c29429",
+        "email": "invitee1@example.com",
+        "role": "Admin",
+        "status": "Pending",
+        "invited_by": "user_entity_pk",
+        "created_at": "2023-08-18T21:57:57.664Z",
+        "updated_at": "2023-08-18T19:22:34.792Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "ac494a9f-2277-4a73-9cde-5f4cce6cc4c9",
+        "email": "invitee2@example.com",
+        "role": "Manager",
+        "status": "Accepted",
+        "invited_by": "user_entity_pk",
+        "created_at": "2023-08-18T15:13:53.962Z",
+        "updated_at": "2023-08-18T16:51:05.733Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d9b11426-192d-4ea3-9193-24a852638c5c",
+        "email": "invitee3@example.com",
+        "role": "Employee",
+        "status": "Declined",
+        "invited_by": "user_entity_pk",
+        "created_at": "2023-08-19T08:59:05.625Z",
+        "updated_at": "2023-08-19T02:15:10.319Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "32b9bbdd-3f53-4716-b576-6922d6b01591",
+        "email": "invitee4@example.com",
+        "role": "Guest",
+        "status": "Expired",
+        "invited_by": "user_entity_pk",
+        "created_at": "2023-08-19T00:02:27.594Z",
+        "updated_at": "2023-08-18T20:41:54.128Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "a36d727d-b302-4779-bd1b-d3881e1dc74f",
+        "email": "invitee5@example.com",
+        "role": "Supervisor",
+        "status": "Revoked",
+        "invited_by": "user_entity_pk",
+        "created_at": "2023-08-18T17:47:24.931Z",
+        "updated_at": "2023-08-19T09:13:13.913Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "guest_view": [
+      {
+        "id": "501fd601-b264-4593-9ecf-72dbe7af0ac4",
+        "view_date": "2023-08-18T21:25:17.644Z",
+        "created_at": "2023-08-18T19:26:36.327Z",
+        "updated_at": "2023-08-19T08:42:48.077Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "de5c7de3-8177-4a7f-861a-ed81f38d9d99",
+        "view_date": "2023-08-19T01:56:51.620Z",
+        "created_at": "2023-08-19T06:33:33.919Z",
+        "updated_at": "2023-08-18T20:34:06.781Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "81bca9b5-cf68-4439-905b-8b0e0a7b9851",
+        "view_date": "2023-08-19T03:35:25.149Z",
+        "created_at": "2023-08-18T21:41:18.377Z",
+        "updated_at": "2023-08-18T17:08:07.994Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "19d6a26f-0f93-49db-af26-f9e1ea1cf461",
+        "view_date": "2023-08-19T04:58:55.266Z",
+        "created_at": "2023-08-19T07:50:50.376Z",
+        "updated_at": "2023-08-19T07:29:33.240Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a1b1e97a-5b87-4202-b39d-a1ed89137473",
+        "view_date": "2023-08-18T21:34:42.535Z",
+        "created_at": "2023-08-18T18:54:35.827Z",
+        "updated_at": "2023-08-19T08:52:29.814Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "3730fda9-5676-4ab8-878d-602b0818475c",
+        "email": "Elenor.Lind15@hotmail.com",
+        "firstName": "Kellen",
+        "lastName": "Harvey",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/47035433",
+        "tenantId": null
+      },
+      {
+        "reference": "3e067e43-e2e5-4fe8-884e-73776f5491c2",
+        "email": "Rosanna23@yahoo.com",
+        "firstName": "Audra",
+        "lastName": "Heller",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1124.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "87f1be0a-2d01-4a63-be00-b0e413229126",
+        "email": "Nora.McLaughlin@yahoo.com",
+        "firstName": "Lilian",
+        "lastName": "Weissnat-Cruickshank",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/531.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5f619870-0a36-4605-a67d-aaabba3896d6",
+        "email": "Jules_Kunde@hotmail.com",
+        "firstName": "Eli",
+        "lastName": "Frami",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/37041886",
+        "tenantId": null
+      },
+      {
+        "reference": "8036b716-ce12-4c5c-91b5-208c69b82009",
+        "email": "Jacey19@yahoo.com",
+        "firstName": "Meagan",
+        "lastName": "Gutmann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/24821804",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "solar_plant": [
+      {
+        "id": "0f0efacc-43bb-4718-a389-fbccebbf5564",
+        "commissioning_date": "2023-08-19T10:58:46.458Z",
+        "location": "California",
+        "asset_size": 76616,
+        "created_at": "2023-08-19T04:25:11.824Z",
+        "updated_at": "2023-08-19T12:11:12.185Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "07230414-c7a9-4a01-863e-003d7086c8b2",
+        "commissioning_date": "2023-08-19T13:17:33.049Z",
+        "location": "Arizona",
+        "asset_size": 71948,
+        "created_at": "2023-08-18T18:31:16.190Z",
+        "updated_at": "2023-08-19T08:44:05.247Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "4f501b2a-7cca-41ed-bfeb-7b6b29d505b9",
+        "commissioning_date": "2023-08-19T06:11:14.459Z",
+        "location": "Texas",
+        "asset_size": 14851,
+        "created_at": "2023-08-19T14:01:57.409Z",
+        "updated_at": "2023-08-18T22:08:39.972Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "8a3776d7-a651-4268-b36a-52e3ff18c0a2",
+        "commissioning_date": "2023-08-18T14:41:22.863Z",
+        "location": "Florida",
+        "asset_size": 93730,
+        "created_at": "2023-08-18T19:22:18.988Z",
+        "updated_at": "2023-08-19T05:27:09.064Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "bc74fe5f-ab59-4326-b053-e296403997d7",
+        "commissioning_date": "2023-08-19T09:52:43.063Z",
+        "location": "New York",
+        "asset_size": 13027,
+        "created_at": "2023-08-19T00:11:19.858Z",
+        "updated_at": "2023-08-18T19:40:04.727Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "plant_data": [
+      {
+        "id": "5fdb833f-4a80-4075-add6-62f3ad7dc0ca",
+        "data": "12 MW",
+        "upload_date": "2023-08-18T19:52:06.576Z",
+        "created_at": "2023-08-18T22:43:56.208Z",
+        "updated_at": "2023-08-19T13:00:24.287Z",
+        "solar_plant_id": "4f501b2a-7cca-41ed-bfeb-7b6b29d505b9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "82591ac5-b991-4011-b6a7-e7ed139bc5f4",
+        "data": "8.5 MW",
+        "upload_date": "2023-08-19T03:18:50.960Z",
+        "created_at": "2023-08-19T05:49:07.809Z",
+        "updated_at": "2023-08-18T15:42:16.629Z",
+        "solar_plant_id": "0f0efacc-43bb-4718-a389-fbccebbf5564",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "91b7f560-6f9a-4c70-9c04-a2e2856b4082",
+        "data": "5.2 MW",
+        "upload_date": "2023-08-19T09:35:04.233Z",
+        "created_at": "2023-08-19T10:50:17.579Z",
+        "updated_at": "2023-08-19T08:29:51.050Z",
+        "solar_plant_id": "8a3776d7-a651-4268-b36a-52e3ff18c0a2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5574eb88-5274-49f5-a93f-15c85e799711",
+        "data": "3.7 MW",
+        "upload_date": "2023-08-18T15:44:09.796Z",
+        "created_at": "2023-08-19T06:35:07.296Z",
+        "updated_at": "2023-08-19T09:50:37.385Z",
+        "solar_plant_id": "4f501b2a-7cca-41ed-bfeb-7b6b29d505b9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c57d71d6-fbbf-423e-8938-e885c3f00b41",
+        "data": "9.1 MW",
+        "upload_date": "2023-08-18T16:16:52.285Z",
+        "created_at": "2023-08-19T08:11:28.918Z",
+        "updated_at": "2023-08-18T20:35:43.694Z",
+        "solar_plant_id": "0f0efacc-43bb-4718-a389-fbccebbf5564",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "792bb1e5-b9ad-4498-94af-fb139b9569d6",
+        "email": "invitation1@example.com",
+        "role": "Admin",
+        "status": "Pending",
+        "invited_by": "user_entity_pk",
+        "created_at": "2023-08-18T18:40:53.959Z",
+        "updated_at": "2023-08-19T12:34:51.274Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "a02368c5-3201-4fad-912c-456884f533ec",
+        "email": "invitation2@example.com",
+        "role": "Manager",
+        "status": "Accepted",
+        "invited_by": "user_entity_pk",
+        "created_at": "2023-08-19T01:58:06.084Z",
+        "updated_at": "2023-08-18T21:01:41.903Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "e3dd6a9b-5039-4944-b6ee-1c9f88c66bef",
+        "email": "invitation3@example.com",
+        "role": "Engineer",
+        "status": "Declined",
+        "invited_by": "user_entity_pk",
+        "created_at": "2023-08-19T09:22:07.433Z",
+        "updated_at": "2023-08-18T17:39:01.747Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "2390b13c-df9f-4a26-94c1-16557ee5b86c",
+        "email": "invitation4@example.com",
+        "role": "Analyst",
+        "status": "Expired",
+        "invited_by": "user_entity_pk",
+        "created_at": "2023-08-18T16:31:59.073Z",
+        "updated_at": "2023-08-19T11:38:59.783Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "01df57f9-1377-4d96-b188-28b9ad940f9c",
+        "email": "invitation5@example.com",
+        "role": "Supervisor",
+        "status": "Cancelled",
+        "invited_by": "user_entity_pk",
+        "created_at": "2023-08-19T11:53:33.954Z",
+        "updated_at": "2023-08-18T18:27:42.153Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "guest_view": [
+      {
+        "id": "0f079d37-5c04-4f8c-8848-2335ef33caf3",
+        "view_date": "2023-08-19T02:58:23.073Z",
+        "created_at": "2023-08-18T22:50:31.583Z",
+        "updated_at": "2023-08-19T02:01:44.150Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3e0fccca-f4e1-45fd-84f2-ea20893969ad",
+        "view_date": "2023-08-19T02:13:01.999Z",
+        "created_at": "2023-08-19T03:29:20.988Z",
+        "updated_at": "2023-08-19T04:52:04.080Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a17b7a86-a20f-4cda-a2e2-467b2a4799bd",
+        "view_date": "2023-08-19T09:32:33.714Z",
+        "created_at": "2023-08-19T06:56:44.936Z",
+        "updated_at": "2023-08-19T00:49:07.968Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a3dcc6dd-89cb-4d30-8627-f6bcd4dde2eb",
+        "view_date": "2023-08-18T21:00:13.183Z",
+        "created_at": "2023-08-19T01:55:42.040Z",
+        "updated_at": "2023-08-19T12:15:12.050Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "185f5897-36d0-40fd-b091-6e7af6d43d87",
+        "view_date": "2023-08-19T09:57:18.522Z",
+        "created_at": "2023-08-19T02:11:37.381Z",
+        "updated_at": "2023-08-19T05:11:38.651Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "dc153972-f134-4d1b-ba55-d384e838cb27",
+        "email": "Alfonso68@gmail.com",
+        "firstName": "Nia",
+        "lastName": "Mitchell",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46891752",
+        "tenantId": null
+      },
+      {
+        "reference": "45689016-707b-4f22-8a90-9a9b4d641f07",
+        "email": "Alva_Mosciski@gmail.com",
+        "firstName": "Freda",
+        "lastName": "Keebler",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/775.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5872fae5-63b3-4755-8a99-ef7d2123f554",
+        "email": "Jovany40@hotmail.com",
+        "firstName": "Parker",
+        "lastName": "Predovic",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1991160",
+        "tenantId": null
+      },
+      {
+        "reference": "5c53611b-a3b6-44f0-bdc7-1aad351b8060",
+        "email": "Ernest4@hotmail.com",
+        "firstName": "Shea",
+        "lastName": "Zulauf",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/65846905",
+        "tenantId": null
+      },
+      {
+        "reference": "dd5bbec1-b1e2-42a9-a7f3-19c84bac4984",
+        "email": "Jan_Abernathy90@gmail.com",
+        "firstName": "Dudley",
+        "lastName": "Lebsack",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/286.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "solar_plant": [
+      {
+        "id": "33b689b6-cd68-432f-9031-72d40f248cf3",
+        "commissioning_date": "2023-08-19T05:07:45.175Z",
+        "location": "California",
+        "asset_size": 13702,
+        "created_at": "2023-08-18T19:43:03.502Z",
+        "updated_at": "2023-08-18T18:12:22.283Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "812d5bcd-2cd2-4889-8a9a-782011790dc8",
+        "commissioning_date": "2023-08-18T22:49:05.373Z",
+        "location": "Arizona",
+        "asset_size": 4905,
+        "created_at": "2023-08-19T03:17:10.098Z",
+        "updated_at": "2023-08-18T17:06:32.494Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "42564e75-7ae6-40ea-a114-5fdd7f3883c6",
+        "commissioning_date": "2023-08-18T19:21:30.622Z",
+        "location": "Texas",
+        "asset_size": 51747,
+        "created_at": "2023-08-19T01:59:54.995Z",
+        "updated_at": "2023-08-18T19:38:04.371Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "18ee3856-ad36-47ae-971b-a5493273daeb",
+        "commissioning_date": "2023-08-19T11:17:17.088Z",
+        "location": "Florida",
+        "asset_size": 34213,
+        "created_at": "2023-08-18T20:13:37.249Z",
+        "updated_at": "2023-08-19T13:13:00.634Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "89715f37-1d6c-4052-954f-133160005637",
+        "commissioning_date": "2023-08-19T00:45:04.041Z",
+        "location": "New York",
+        "asset_size": 84572,
+        "created_at": "2023-08-19T06:55:09.347Z",
+        "updated_at": "2023-08-19T12:12:54.423Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "plant_data": [
+      {
+        "id": "f65af662-1af7-47eb-8ceb-90a3f95d27db",
+        "data": "12345",
+        "upload_date": "2023-08-19T05:59:32.449Z",
+        "created_at": "2023-08-18T23:05:04.092Z",
+        "updated_at": "2023-08-19T13:52:02.645Z",
+        "solar_plant_id": "812d5bcd-2cd2-4889-8a9a-782011790dc8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e511e7dc-7abd-4748-bd64-5ce3f0a9d1d5",
+        "data": "67890",
+        "upload_date": "2023-08-18T22:48:40.908Z",
+        "created_at": "2023-08-19T07:32:46.615Z",
+        "updated_at": "2023-08-18T15:13:38.950Z",
+        "solar_plant_id": "33b689b6-cd68-432f-9031-72d40f248cf3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b493381e-3aec-4e5c-9132-16a0f8cdd9f1",
+        "data": "ABCDE",
+        "upload_date": "2023-08-19T03:20:25.019Z",
+        "created_at": "2023-08-19T14:12:41.417Z",
+        "updated_at": "2023-08-18T14:45:36.714Z",
+        "solar_plant_id": "89715f37-1d6c-4052-954f-133160005637",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5b5d991a-3e02-4a0f-ac39-8a849411b3f3",
+        "data": "FGHIJ",
+        "upload_date": "2023-08-19T01:32:15.348Z",
+        "created_at": "2023-08-18T22:06:36.182Z",
+        "updated_at": "2023-08-19T14:20:15.197Z",
+        "solar_plant_id": "33b689b6-cd68-432f-9031-72d40f248cf3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fb42814a-4e92-4217-88fe-c54ce0059668",
+        "data": "KLMNO",
+        "upload_date": "2023-08-19T08:27:45.334Z",
+        "created_at": "2023-08-18T19:43:33.457Z",
+        "updated_at": "2023-08-19T00:39:17.907Z",
+        "solar_plant_id": "812d5bcd-2cd2-4889-8a9a-782011790dc8",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "d69ca6a2-1162-4a1d-bcf0-dd8bb58490fc",
+        "email": "invitee1@example.com",
+        "role": "Admin",
+        "status": "Pending",
+        "invited_by": "user_entity_pk",
+        "created_at": "2023-08-19T02:24:06.730Z",
+        "updated_at": "2023-08-19T09:29:46.372Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "717218a7-9b86-4da9-9540-57eab8aebef3",
+        "email": "invitee2@example.com",
+        "role": "User",
+        "status": "Accepted",
+        "invited_by": "user_entity_pk",
+        "created_at": "2023-08-19T02:54:32.560Z",
+        "updated_at": "2023-08-18T20:02:57.716Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "73df7f6d-2cac-4d53-9363-a4401a08d63d",
+        "email": "invitee3@example.com",
+        "role": "Manager",
+        "status": "Declined",
+        "invited_by": "user_entity_pk",
+        "created_at": "2023-08-18T20:38:29.274Z",
+        "updated_at": "2023-08-18T21:19:08.621Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "47d3d94a-46bf-4051-abf7-f762c8397e48",
+        "email": "invitee4@example.com",
+        "role": "Guest",
+        "status": "Expired",
+        "invited_by": "user_entity_pk",
+        "created_at": "2023-08-19T01:14:44.605Z",
+        "updated_at": "2023-08-18T16:06:15.534Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "39d9aa1b-8a72-40f4-87c3-406afbe84af9",
+        "email": "invitee5@example.com",
+        "role": "Supervisor",
+        "status": "Cancelled",
+        "invited_by": "user_entity_pk",
+        "created_at": "2023-08-18T18:43:00.102Z",
+        "updated_at": "2023-08-19T02:41:39.653Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "guest_view": [
+      {
+        "id": "3f263253-1554-48ac-9763-c2f0dabe6214",
+        "view_date": "2023-08-18T17:15:17.150Z",
+        "created_at": "2023-08-19T04:29:12.496Z",
+        "updated_at": "2023-08-18T17:57:02.037Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fd40f3e2-fb7d-433f-962b-9d51ef121504",
+        "view_date": "2023-08-18T23:54:00.060Z",
+        "created_at": "2023-08-18T15:39:36.984Z",
+        "updated_at": "2023-08-19T09:40:58.295Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5cba6433-55b5-463d-8ba7-9d9bf9a6cfe2",
+        "view_date": "2023-08-18T22:57:04.424Z",
+        "created_at": "2023-08-18T19:49:15.731Z",
+        "updated_at": "2023-08-18T16:57:26.553Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d6691fdd-3a73-42db-9636-45eb97e129d7",
+        "view_date": "2023-08-19T02:15:30.114Z",
+        "created_at": "2023-08-19T13:32:56.392Z",
+        "updated_at": "2023-08-19T08:06:36.192Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d7944efc-94b4-4674-972b-e3f511063371",
+        "view_date": "2023-08-18T22:30:49.070Z",
+        "created_at": "2023-08-19T02:00:21.649Z",
+        "updated_at": "2023-08-19T04:07:10.821Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "1843d7ca-af4e-4c70-9927-68b652b9d23c",
+        "email": "Brady_Pouros@gmail.com",
+        "firstName": "Nicholaus",
+        "lastName": "Sawayn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/36854140",
+        "tenantId": null
+      },
+      {
+        "reference": "f435cf07-790c-4774-9173-595e63eb1854",
+        "email": "Nat_Purdy40@yahoo.com",
+        "firstName": "Josiah",
+        "lastName": "Bosco",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3930633",
+        "tenantId": null
+      },
+      {
+        "reference": "b66b04fc-423d-4267-9af5-b8fcc499fce4",
+        "email": "Jeremie_Lesch@hotmail.com",
+        "firstName": "Buck",
+        "lastName": "Thiel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/361.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7a9af529-478a-4b4b-baf9-90d68e79b9e0",
+        "email": "Alejandra.Balistreri@hotmail.com",
+        "firstName": "Sasha",
+        "lastName": "McDermott",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9793234",
+        "tenantId": null
+      },
+      {
+        "reference": "10ca7077-8544-41c5-856d-5d5f7c7f9daa",
+        "email": "Christopher37@yahoo.com",
+        "firstName": "Dayton",
+        "lastName": "Douglas",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/600.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
